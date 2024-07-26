@@ -21,6 +21,7 @@ const decodeTheRing = function (s, p) {
         while(k != s[i] && i<s.length){
           i++;
         }
+        
       }
 
       console.log(s[i],p[j]);
