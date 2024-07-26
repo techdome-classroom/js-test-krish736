@@ -28,8 +28,8 @@ const decodeTheRing = function (s, p) {
   }
 
   if (s[i] == p[j]) {
-    return true;
-  } else return false;
+    return 'true';
+  } else return 'false';
 };
 
 module.exports = decodeTheRing;
