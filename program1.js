@@ -1,4 +1,4 @@
-const dfs(grid, i, j)
+const dfs (grid, i, j) =>
     {
         if (i < 0 || i >= grid.size() || j < 0 || j >= grid[0].size() || grid[i][j] != '1')
         {
