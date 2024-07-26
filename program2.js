@@ -10,6 +10,8 @@ const decodeTheRing = function (s, p) {
         i++;
         j++;
       }
+
+      if(s[i] =)
     }
 
   };
