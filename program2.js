@@ -12,7 +12,13 @@ const decodeTheRing = function (s, p) {
       }
 
       if(p[j] == '?'){
-        p[j] = s[i]
+        p[j] = s[i];
+        i++;
+        j++;
+      }
+
+      if(p[j] == "*"){
+        
       }
     }
 
