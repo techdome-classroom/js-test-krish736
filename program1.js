@@ -4,7 +4,7 @@ const dfs = (grid, i, j) => {
     i >= grid.size ||
     j < 0 ||
     j >= grid[0].size ||
-    grid[i][j] != "1"
+    grid[i][j] != "L"
   ) {
     return;
   }
