@@ -9,7 +9,7 @@ const dfs = (grid, i, j) => {
     return;
   }
 
-  grid[i][j] = "0";
+  grid[i][j] = "W";
   dfs(grid, i + 1, j);
   dfs(grid, i - 1, j);
   dfs(grid, i, j + 1);
