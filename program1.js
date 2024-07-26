@@ -31,3 +31,10 @@ const getTotalIsles = function (grid) {
 };
 
 module.exports = getTotalIsles;
+
+const grid = [
+  ["L", "L", "L", "L", "W"],
+  ["L", "L", "W", "L", "W"],
+  ["L", "L", "W", "W", "W"],
+  ["W", "W", "W", "W", "W"],
+];
