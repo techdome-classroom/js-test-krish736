@@ -23,7 +23,6 @@ const decodeTheRing = function (s, p) {
         }
         i++;
       }
-      i++;
       j++;
     }
 
