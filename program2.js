@@ -3,7 +3,7 @@ const decodeTheRing = function (s, p) {
     // write your code here
 
     let i = 0;
-    let j = 1;
+    let j = 0;
 
     while(i<s.length || j<p.length){
       if(s[i] == p[j]){
