@@ -36,6 +36,3 @@ const decodeTheRing = function (s, p) {
 
 module.exports = decodeTheRing;
 
-// let ans = decodeTheRing("hello", "h*llo");
-
-// console.log(ans);
