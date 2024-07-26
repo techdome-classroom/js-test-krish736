@@ -5,7 +5,7 @@ const decodeTheRing = function (s, p) {
     let i = 0;
     let j = 0;
 
-    while(i<s.length || j<p.length){
+    while(i<s.length && j<p.length){
       if(s[i] == p[j]){
         i++;
         j++;
