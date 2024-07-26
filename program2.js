@@ -28,7 +28,7 @@ const decodeTheRing = function (s, p) {
   }
 
   if (s[i] == p[j]) {
-    return 'true';
+    return 'true'
   } else return 'false';
 };
 
