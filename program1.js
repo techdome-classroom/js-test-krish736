@@ -30,6 +30,7 @@ const getTotalIsles = function (grid) {
     }
   }
   console.log(output);
+  console.log(grid);
 };
 
 module.exports = getTotalIsles;
