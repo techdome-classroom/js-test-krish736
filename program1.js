@@ -30,5 +30,4 @@ const getTotalIsles = function (grid) {
   }
 };
 
-export default getTotalIsles
-
+export default getTotalIsles;
