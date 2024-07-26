@@ -28,14 +28,14 @@ const decodeTheRing = function (s, p) {
   }
 
   if (s[i] == p[j]) {
-    return 'true'
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 };
 
 module.exports = decodeTheRing;
 
-let ans = decodeTheRing("hello", "h*llo");
+// let ans = decodeTheRing("hello", "h*llo");
 
-console.log(ans);
+// console.log(ans);
