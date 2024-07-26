@@ -1,5 +1,5 @@
-import getTotalIsles from "./program1.js";
-import { equal } from "assert";
+const getTotalIsles = require("./program1");
+const assert = require("assert");
 
 describe("Test cases for finding total number of Islands", function () {
   it(`Returns 1 for [["L","L","L","L","W"],["L","L","W","L","W"],["L","L","W","W","W"],["W","W","W","W","W"]]`, function () {
@@ -9,7 +9,7 @@ describe("Test cases for finding total number of Islands", function () {
       ["L", "L", "W", "W", "W"],
       ["W", "W", "W", "W", "W"],
     ]);
-    equal(result, 1);
+    assert.equal(result, 1);
   });
   it(`Returns 3 for [["L","L","W","W","W"],["L","L","W","W","W"],["W","W","L","W","W"],["W","W","W","L","L"]]`, function () {
     const result = getTotalIsles([
@@ -18,7 +18,7 @@ describe("Test cases for finding total number of Islands", function () {
       ["W", "W", "L", "W", "W"],
       ["W", "W", "W", "L", "L"],
     ]);
-    equal(result, 3);
+    assert.equal(result, 3);
   });
   it(`Returns 1 for [["W", "W", "W", "W"], ["W", "L", "L", "W"], ["W", "L", "L", "W"], ["W", "W", "W", "W"]]`, function () {
     const result = getTotalIsles([
@@ -27,6 +27,6 @@ describe("Test cases for finding total number of Islands", function () {
       ["W", "L", "L", "W"],
       ["W", "W", "W", "W"],
     ]);
-    equal(result, 1);
+    assert.equal(result, 1);
   });
 });
