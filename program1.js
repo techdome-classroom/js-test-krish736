@@ -20,8 +20,8 @@ const getTotalIsles = function (grid) {
   // write your code here
   let output = 0;
   const n = grid.length
-  const r = grid[0].size
-  console.log(grid.size);
+  const r = grid[0].length
+  console.log(grid.length);
 
   while(n){
     console.log('1');
