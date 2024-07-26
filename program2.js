@@ -25,8 +25,6 @@ const decodeTheRing = function (s, p) {
       }
       j++;
     }
-
-    console.log(s[i], p[j]);
   }
 
   if (s[i] == p[j]) {
