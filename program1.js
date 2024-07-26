@@ -19,7 +19,7 @@ const dfs = (grid, i, j) => {
 const getTotalIsles = function (grid) {
   // write your code here
   let output = 0;
-  const n = grid.size
+  const n = grid.length
   const r = grid[0].size
   console.log(grid.size);
 
