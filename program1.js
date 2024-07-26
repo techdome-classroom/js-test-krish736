@@ -1,9 +1,9 @@
 const dfs = (grid, i, j) => {
   if (
     i < 0 ||
-    i >= grid.size ||
+    i >= grid.length ||
     j < 0 ||
-    j >= grid[0].size ||
+    j >= grid[0].length ||
     grid[i][j] != "L"
   ) {
     return;
