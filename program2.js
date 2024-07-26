@@ -11,7 +11,9 @@ const decodeTheRing = function (s, p) {
         j++;
       }
 
-      if(s[i] =)
+      if(p[j] == '?'){
+        
+      }
     }
 
   };
