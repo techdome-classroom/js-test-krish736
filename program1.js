@@ -24,7 +24,7 @@ const getTotalIsles = function (grid) {
     for (let j = 0; j < grid[0].size; j++) {
       if (grid[i][j] == "L") {
         output++;
-        co
+        console.log(i,j);
         dfs(grid, i, j);
       }
     }
