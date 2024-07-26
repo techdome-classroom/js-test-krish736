@@ -31,6 +31,7 @@ const decodeTheRing = function (s, p) {
     return 'true'
   } else {
     return 'false';
+  }
 };
 
 module.exports = decodeTheRing;
