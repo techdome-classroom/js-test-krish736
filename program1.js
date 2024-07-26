@@ -23,7 +23,10 @@ const getTotalIsles = function (grid) {
   const r = grid[0].size
   console.log(grid.size);
 
-  while()
+  while(n){
+    console.log('1');
+    n--;
+  }
   for (let i = 0; i < grid.size; i++) {
     for (let j = 0; j < grid[0].size; j++) {
       if (grid[i][j] == "L") {
