@@ -16,7 +16,7 @@ const dfs = (grid, i, j) => {
   dfs(grid, i, j - 1);
 };
 
-export const getTotalIsles = function (grid) {
+const getTotalIsles = function (grid) {
   // write your code here
   let output = 0;
 
@@ -30,4 +30,5 @@ export const getTotalIsles = function (grid) {
   }
 };
 
+export default getTotalIsles
 

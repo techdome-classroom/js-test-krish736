@@ -1,4 +1,4 @@
-import getTotalIsles from "./program1";
+import getTotalIsles from "./program1.js";
 import { equal } from "assert";
 
 describe("Test cases for finding total number of Islands", function () {
