@@ -18,7 +18,7 @@ const decodeTheRing = function (s, p) {
 
       if(p[j] == "*"){
         let k = p[j+1];
-        while(k != s[i] && i<s.length){
+        while( i<s.length){
           i++;
         }
         i++;
