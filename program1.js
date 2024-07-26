@@ -39,3 +39,4 @@ const grid = [
   ["W", "W", "W", "W", "W"],
 ];
 
+getTotalIsles(grid)
